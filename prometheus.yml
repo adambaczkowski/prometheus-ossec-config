@@ -35,7 +35,7 @@ scrape_configs:
 
   - job_name: 'ossec'
     static_configs:
-      - targets: ['localhost:8080']
+      - targets: ['localhost:9080']
 
   - job_name: 'ossec-metrics'
     static_configs:
